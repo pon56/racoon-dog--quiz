@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>racoon-dog-quiz</title>
+
+    <!-- フォント -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Yusei+Magic&display=swap" rel="stylesheet">
+
+    <!-- スタイルシート -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-2.css">
+</head>
+
+<body>
+
+    <div class="quiz">
+        <!-- タイトル -->
+        <div class="top">
+            <h1>たぬきくいず</h1>
+            <h2 class="level">すきなキーを押してクイズスタート</h2>
+        </div>
+
+        <!-- クイズ部分 -->
+        <div class="question-container">
+
+            <div class="right">正解!
+            </div>
+
+            <div class="wrong">
+                不正解...
+            </div>
+
+            <section class="quize1">
+                <div class="question true" id="question1">
+                    <h2>たぬきはイヌ科か？</h2>
+                </div>
+                <div class="answer" id="answer-question1">
+                    <p>〇　たぬきはイヌ科です</p>
+                </div>
+            </section>
+
+            <section class="quize2">
+                <div class="question true" id="question2">
+                    <h2>たぬきはかわいいか？</h2>
+                </div>
+                <div class="answer" id="answer-question2">
+                    <p>〇　人にもよりますが、私はかわいいと思います。</p>
+                </div>
+            </section>
+
+            <section class="quize3">
+                <div class="question false" id="question3">
+                    <h2>たぬきは日本にしか生息していないか？</h2>
+                </div>
+                <div class="answer" id="answer-question3">
+                    <p>×　たぬきは日本以外にも中国やロシア、ドイツ等のヨーロッパ
+                        にも生息しています。以外とワールドワイド
+                    </p>
+                </div>
+            </section>
+
+            <section class="quize4">
+                <div class="question false" id="question4">
+                    <h2>日本でたぬきを飼育している動物園は一つしかない？</h2>
+                </div>
+                <div class="answer" id="answer-question4">
+                    <p>×　天王寺動物園や京都市立動物園など日本全国の動物園でたぬきが見れます。
+                        近くの動物園で見てみよう！
+                    </p>
+                </div>
+            </section>
+
+            <section class="quize5">
+                <div class="question true" id="question5">
+                    <h2>たぬきは夜行性？</h2>
+                </div>
+                <div class="answer" id="answer-question5">
+                    <p>〇たぬきは夜行性の生き物です。<br>
+                        でも、動物園なんかの飼育下では昼間でも活動しているたぬきが見れるよ！
+                    </p>
+                </div>
+            </section>
+
+            <section class="quize6">
+                <div class="question false" id="question6">
+                    <h2>たぬきの鼻はピンク色か？</h2>
+                </div>
+                <div class="answer" id="answer-question6">
+                    <p>×　たぬきの鼻は黒色です。
+                        鼻がピンクでたぬきに似た生き物に、ハクビシンがいます。
+                    </p>
+                </div>
+            </section>
+
+            <section class="quize7">
+                <div class="question false" id="question7">
+                    <h2>たぬきのしっぽはしましまである</h2>
+                </div>
+                <div class="answer" id="answer-question7">
+                    <p>×　たぬきのしっぽはしましまではありません。<br>
+                        たぬきのしっぽは、先端が濃い茶色なだけで、模様はありません。
+                    </p>
+                </div>
+            </section>
+
+
+            <div class="next">
+                好きなキーで次へ
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="ansewer-button">
+        <div class="button" id="true">〇まるです</div>
+        <div class="button" id="false">×ばつです</div>
+    </div>
+
+    <!-- js　読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
