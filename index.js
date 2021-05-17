@@ -24,7 +24,7 @@ function quize() {
     console.log(quizeNumber)
     question = quizeNumber
 
-    var correct = $("#question" + randomNumber).attr("class")
+    var correct = quizeArry[randomNumber - 1].attr("class")
     var correctSplit = correct.split(" ")
     correctAnswer = correctSplit[1]
     console.log(correctAnswer)

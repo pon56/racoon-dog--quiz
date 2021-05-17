@@ -1,10 +1,28 @@
 body{
-    // background: linear-gradient(135deg, brown,white);
     min-height: 1000px;
-    // background-color: #E4E9FD;
     background-image: -webkit-linear-gradient(-65deg,  #ab8560 50%,  #544536 50%);
     font-family: 'Kosugi Maru', sans-serif;
 }
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.Top-button{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    background: #d6b89a;
+    padding: 25px 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-shadow: 0 3px 3px 0  #333;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
 
 .quiz{
     margin: 0 auto;
@@ -23,7 +41,7 @@ h2{
 }
 
 p{
-    font-size: 15px;
+    font-size: 20px;
     padding: 30px;
 }
 
@@ -69,3 +87,8 @@ p{
     font: 20px;
     padding-bottom: 20px;
 }
+
+.top-p{
+    font-size: 45px;
+}
+
